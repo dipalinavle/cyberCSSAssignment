@@ -1,0 +1,39 @@
+/*Begin here*/
+.dropDownBtn{
+	    background-color: #00ABE7;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.disabled{
+	background-color: #BFEAF9 !important;
+     pointer-events: none;
+}
+
+.dropDownBtn:hover{
+	background-color: #7FD5F3;
+}
+.dropDownBtn:focus{
+	background-color: #0070B4;
+}
+.dropDownBtn option{
+	background-color:#fff;
+	color:#333333;
+	border:1px solid grey;
+	border-radius:10px;
+}
+option{
+	background-color:#fff;
+	color:#333333;
+	border:1px solid red;
+	border-radius:10px;
+}
+.dropDownBtn option:hover{
+	background-color:#EEF1F4 !important;
+	color:#333333;
+}
+select.dropDownBtn option:hover {
+   background-color:#EEF1F4 !important;
+	color:#333333;
+}
